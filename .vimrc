@@ -36,3 +36,5 @@ syntax on
 set noswapfile
 set nobackup
 set nowb
+
+execute pathogen#infect()
