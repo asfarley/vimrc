@@ -124,3 +124,5 @@ tmux source-file ~/.tmux.conf
 
 bind '"\t":menu-complete'
 set bell-style none
+
+alias rs='echo "Resetting Rails" && rake assets:precompile && touch tmp/restart.txt'
